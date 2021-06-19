@@ -2,7 +2,6 @@
   "name": "nodejstypescript",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:Glerme/NodeJsTypescript.git",
   "author": "<guilherme.godoi@allcomsistemas.com.br>",
   "license": "MIT",
   "scripts": {
