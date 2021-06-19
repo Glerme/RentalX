@@ -2,7 +2,7 @@
   "name": "nodejstypescript",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "<guilherme.godoi@allcomsistemas.com.br>",
+  "author": "<guiggff@gmail.com>",
   "license": "MIT",
   "scripts": {
     "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts",
