@@ -1,4 +1,4 @@
-import { Specification } from '../../model/Specification';
+import { Specification } from '../../entities/Specification';
 import {
   ICreateSpecificationDTO,
   ISpecificationsRepository,
@@ -27,6 +27,10 @@ class SpecificationsRepository implements ISpecificationsRepository {
     const specification = this.specifications.find(
       specification => specification.name === name,
     );
+
+    if (!specification) {
+      return new Error('ocorreu um erro');
+    }
 
     return specification;
   }
